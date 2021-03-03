@@ -1,5 +1,5 @@
 {
-  "name": "pack3",
+  "name": "@test-packs/pack3",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT"
