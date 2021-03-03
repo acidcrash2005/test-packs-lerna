@@ -1,8 +1,13 @@
 {
-  "name": "Lerna",
+  "name": "test-packs-lerna",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.ginsp.net/"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }
